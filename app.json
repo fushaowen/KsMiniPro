@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/personal/personal",
+    "pages/wonderful/wonderful",
+    "pages/myvideo/myvideo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "快手小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dfdfdf",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/video.svg"
+        
+      },
+      {
+        "pagePath": "pages/myvideo/myvideo",
+        "text": "我的追剧",
+        "iconPath": "images/movie.svg"
+        
+      }, 
+      {
+        "pagePath": "pages/wonderful/wonderful",
+        "text": "签到",
+        "iconPath": "images/gift.svg"
+        
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "images/user.svg"
+        
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<!--index.ksml-->
+<!--轮播图  -->
+<view class="img_swiper">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+        <block ks:for="{{imgUrls}}">
+            <swiper-item>
+                <image :src="{{item}}" class="slide-image" />
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+<!-- 信息导航 -->
+<view class="info_nav"></view>
+
+<!-- 推荐商品 -->
+<view class="video_list"></view>
